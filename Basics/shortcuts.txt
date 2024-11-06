@@ -1,0 +1,13 @@
+Ctrl+X = Cut line (empty selection) You can erase the whole line you selected. 
+Alt+ ↑ / ↓ = Move line up/down. You can move the line using the arrows without having to erase
+Shift+Alt + ↓ / ↑ = Copy line up/down. This will copy the line as many times as you press the arrow. 
+Ctrl+Shift+K = Delete line. This will delete the whole line instantly. 
+Home / End = Go to beginning/end of line. 
+Ctrl+Home =Go to beginning of file
+Ctrl+End =Go to end of file
+Shift+ ↓/↑/->/<- = Highlite code/select code
+Alt+Click = Insert cursor. You can insert the cursor on as many lines at once and write the same thing at the same time on all lines
+CTRL+D = Multi-select an element. When you need to change the H3 tags to the H4 tags (all of them) in a file, what will you do? You have to select one H3 tag and use the shortcut. This will find every H3 tag and give you an active cursor for further action.
+Ctrl+U = Undo last cursor operation/Undo CTRL+D. 
+Alt+Click = Add cursor
+Ctrl+L = Select current line. It selects the current line like you would do it with the mouse when wanting to copy and paste something.
