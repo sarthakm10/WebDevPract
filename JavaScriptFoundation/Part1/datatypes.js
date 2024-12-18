@@ -19,7 +19,7 @@ let isLoggedin = false;
 
 // Object
 let fruitTypes = ["Apple", "Banana", "Oranges"];
-let user = {firstName: "sarthak", lastName: "Mishra"};
+let user = { firstName: "sarthak", lastName: "Mishra" };
 
 let getScore = score;
 
@@ -28,7 +28,3 @@ console.log(name);
 console.log(isLoggedin);
 console.log(fruitTypes);
 console.log(user);
-
-
-
-

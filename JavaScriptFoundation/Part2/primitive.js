@@ -32,11 +32,10 @@ console.log(oldGreet);
 let greetMessage = `Hello ${username} !`;
 console.log(greetMessage);
 
-
 let demoOne = `Value is ${2 * 2}`;
 console.log(demoOne);
 
 let sm1 = Symbol("hitesh");
 let sm2 = Symbol("hitesh");
 
-console.log(sm1 = sm2);
+console.log((sm1 = sm2));

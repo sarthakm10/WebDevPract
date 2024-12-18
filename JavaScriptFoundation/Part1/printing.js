@@ -4,8 +4,6 @@ process.stdout.write("chai");
 process.stdout.write("\n");
 
 // Some other ways of printing in console
-console.table({city: "Mumbai"});
+console.table({ city: "Mumbai" });
 // This prints in some color in console
-console.warn({city: "Delhi"});
-
-
+console.warn({ city: "Delhi" });

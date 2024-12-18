@@ -1,8 +1,8 @@
 const username = {
-    "first name": "hitesh",
-    isLoggedin: true,
+  "first name": "hitesh",
+  isLoggedin: true,
 };
-  
+
 // username.firstname = "Mr. H";
 username.lastname = "choudhary";
 
@@ -23,4 +23,3 @@ console.log(anotherUser[0]);
 let isValue = "2abc";
 console.log(typeof Number(isValue));
 console.log(Number(null));
-  
