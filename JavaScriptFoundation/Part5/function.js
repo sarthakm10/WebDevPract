@@ -8,7 +8,7 @@ function makeTea(typeOfTea) {
 	console.log(test)
 }
 let teaOrder = makeTea("lemon tea")
-// console.log(teaOrder);
+console.log(teaOrder);
 
 /* 
 2. Create a function named `orderTea` that takes one parameter, `teaType`. Inside this function, create another function named `confirmOrder` that returns a message like `"Order confirmed for chai"`. 
@@ -23,7 +23,7 @@ function orderTea(teaType) {
 }
 
 let orderConfirmation = orderTea("chai")
-// console.log(orderConfirmation);
+console.log(orderConfirmation);
 
 /* 
 3. Write an arrow function named `calculateTotal` that takes two parameters: `price` and `quantity`. The function should return the total cost by multiplying the `price` and `quantity`. 
@@ -33,6 +33,7 @@ Store the result in a variable named `totalCost`.
 const calculateTotal = (price, quantity) => price * quantity
 
 let totalCost = calculateTotal(499 * 100)
+console.log(totalCost);
 
 /* 
 4. Write a function named `processTeaOrder` that takes another function, `makeTea`, as a parameter and calls it with the argument `"earl grey"`. 
@@ -47,7 +48,7 @@ function processTeaOrder(teaFunction) {
 }
 
 let order = processTeaOrder(makeTea)
-// console.log(order);
+console.log(order);
 
 /* 
 5. Write a function named `createTeaMaker` that returns another function. The returned function should take one parameter, `teaType`, and return a message like `"Making green tea"`. 
