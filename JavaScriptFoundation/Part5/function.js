@@ -5,6 +5,7 @@ Store the result in a variable named `teaOrder`.
 
 function makeTea(typeOfTea) {
 	return `Making ${typeOfTea}`
+	// this will not print as code is unrechable after the return statement
 	console.log(test)
 }
 let teaOrder = makeTea("lemon tea")
@@ -37,7 +38,7 @@ console.log(totalCost);
 
 /* 
 4. Write a function named `processTeaOrder` that takes another function, `makeTea`, as a parameter and calls it with the argument `"earl grey"`. 
-Return the result of calling `makeTea`.
+		Return the result of calling `makeTea`.
 */
 function makeTea(typeOfTea) {
 	return `maketea: ${typeOfTea}`
@@ -58,6 +59,7 @@ Store the returned function in a variable named `teaMaker` and call it with `"gr
 function createTeaMaker(name) {
 	let score = 100
 	return function (teaType) {
+		// This is concept is called closure.
 		return `Making ${teaType} ${name} ${score}`
 	}
 }
